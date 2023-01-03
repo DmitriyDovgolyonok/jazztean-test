@@ -1,6 +1,6 @@
 import './App.css'
 import {Header} from "./components/Header/Header"
-import {Router} from "./routes/Router";
+import {Router} from "./routes/Router"
 
 function App() {
   return (
@@ -10,4 +10,4 @@ function App() {
     </div>
   );
 }
-export default App;
+export default App

@@ -24,11 +24,11 @@ export const Login = () => {
     })
 
     const onSubmit = (e) => {
-        e.preventDefault();
+        e.preventDefault()
         if (formValues.username === "Admin" && formValues.password === "12345678") {
             dispatch(LOGIN_SUCCESS(formValues))
         } else {
-            alert("Log in failed")
+            alert("Username or the password was entered incorrectly")
         }
     }
 

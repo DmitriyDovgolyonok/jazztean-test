@@ -1,0 +1,15 @@
+.profile__username,
+
+.profile__username {
+    margin-top: 5vh;
+}
+.profile__info{
+}
+.profile__notes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+}

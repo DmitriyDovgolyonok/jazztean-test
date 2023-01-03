@@ -1,7 +1,9 @@
 import {combineReducers, createStore} from "redux"
 import {loginReducer} from "./loginReducer";
+import {calendarReducer} from "./calendarReducer";
 
 
 export const rootReducer = combineReducers({
-    login: loginReducer
+    login: loginReducer,
+    calendar: calendarReducer
 })
